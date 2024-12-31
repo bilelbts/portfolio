@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+}
+body{
+    background: linear-gradient(to bottom,#EFEFBB,#D4D3DD);
+}
+header{
+    background-color: #efefbbd2;
+    
+    padding: 20px 50px;
+}
+footer{
+    background-color: #D4D3DD;
+    
+    padding: 20px 50px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+footer{display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;}
+
+
+div a{
+    font-size: 1.3em;
+     margin-left: 30px;
+     color: #000000cb;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+     color: #000000cb;
+    
+    font-size:1.1em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 9em ;
+    padding-left: 6em;
+    padding-right: 3em;
+    gap :20px;
+    text-align:justify;
+}
+
+
+.intro img{
+    width: 350px;
+    height: 350px;
+    border-radius: 25% 10%;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+.intro h1,
+h2{
+    padding-top:30px ;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+.competences img{
+    width: 250px;
+    height:250px;
+    /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
+    object-fit: cover;
+ border-radius: 50px 50px 50px 50px;
+    border: 2px solid black;
+    background-color:#ffffff9f ;
+    
+}
+.competences div{
+    gap: 60px;
+}
+
+.competences{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.competences h1{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap:35px;
+    font-size: 3.5em;
+    color: #000000cb;
+
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+.projets p{
+    text-align: justify;
+}
+.projet img{
+    width: 200px;
+    height: 175px;
+    border-radius: 25% 10%;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+    
+    
+}
+.projet div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 30px;
+    margin-right: 350px;
+    margin-left: 250px;
+    margin-bottom: 30;
+    background-color:#decba44b;
+    color: #000000cb;
+    font-size: 1.2em;
+    
+}
+.projet{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 100px;
+
+}
+.projet h1{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+padding-top: 100px;
+padding-bottom: 50px;
+font-size: 3em;
+text-decoration: underline;
+color: #000000cb;
+
+}
+.projet div:hover {
+    transform: scale(1.05); /* Agrandit légèrement la div */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Ajoute une ombre plus marquée */
+  }
+  .competences img:hover{
+    transform: scale(1.05); /* Agrandit légèrement la div */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Ajoute une ombre plus marquée */
+  }
